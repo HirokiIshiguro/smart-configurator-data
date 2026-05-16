@@ -101,8 +101,9 @@
     <download uri="https://raw.githubusercontent.com/renesas/smart-configurator-data/9f6a6f2a9308c557ba7c6e484eb3003ecdc8ded4/Boards/FPB-RX261_V1.01.bdf"/>
     <download uri="https://raw.githubusercontent.com/renesas/smart-configurator-data/9f6a6f2a9308c557ba7c6e484eb3003ecdc8ded4/Boards/FPB-RX261_V1.02.bcdf"/>
   </board>
-  <board id="GR-ROSE-RX65N" version="1.03" description="GR-ROSE Board Description File" keys="RX">
-    <download uri="https://raw.githubusercontent.com/renesas/smart-configurator-data/9f6a6f2a9308c557ba7c6e484eb3003ecdc8ded4/Boards/GR-ROSE-RX65N_V1.03.bdf"/>
+  <board id="GR-ROSE-RX65N" version="1.04" description="GR-ROSE Board Description File" keys="RX">
+    <download uri="https://raw.githubusercontent.com/HirokiIshiguro/smart-configurator-data/master/Boards/GR-ROSE-RX65N_V1.04.bdf"/>
+    <download uri="https://raw.githubusercontent.com/HirokiIshiguro/smart-configurator-data/master/Boards/GR-ROSE-RX65N_V1.00.bcdf"/>
   </board>
   <board id="MCB-RX26T Type A" version="1.00" description="MCB-RX26T Type A Board Description File" keys="RX">
     <download uri="https://raw.githubusercontent.com/renesas/smart-configurator-data/9f6a6f2a9308c557ba7c6e484eb3003ecdc8ded4/Boards/MCB-RX26T%20Type%20A_V1.00.bdf"/>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<boardDescription id="GR-ROSE-RX65N" version="1.00">
+    <supportedBoard>
+        <!-- Board id and version refer to bdf -->
+        <board id="GR-ROSE-RX65N" version="V1.04"/>
+    </supportedBoard>
+    <boardFeature>
+        <feature name="Application Header" type="Header"/>
+        <feature name="CN4 Pmod (RSPI-B)" jName="CN4 Pmod (RSPI-B)">
+            <components>
+                <configuration name="r_rspi_rx"/>
+            </components>
+        </feature>
+        <feature name="Ethernet" jName="Ethernet">
+            <components>
+                <configuration name="r_ether_rx"/>
+            </components>
+        </feature>
+    </boardFeature>
+    <tool id="SWComponent" version="1.0.0.0">
+        <configuration inuse="true" name="r_rspi_rx">
+            <component description="Dependency : r_bsp version(s) 6.20&#10;This software provides an applications programing interface (API) to prepare the RSPI peripheral for operation and for performing data transfers over the SPI bus." detailDescription="RSPI Driver" display="r_rspi_rx" id="r_rspi_rx3.03" version="3.03">
+                <gridItem id="RSPCKA" selectedIndex="0"/>
+                <gridItem id="MOSIA" selectedIndex="0"/>
+                <gridItem id="MISOA" selectedIndex="0"/>
+                <gridItem id="SSLA0" selectedIndex="0"/>
+                <gridItem id="SSLA1" selectedIndex="0"/>
+                <gridItem id="SSLA2" selectedIndex="0"/>
+                <gridItem id="SSLA3" selectedIndex="0"/>
+                <gridItem id="RSPI0" selectedIndex="0"/>
+                <gridItem id="RSPCKB" selectedIndex="1"/>
+                <gridItem id="MOSIB" selectedIndex="1"/>
+                <gridItem id="MISOB" selectedIndex="1"/>
+                <gridItem id="SSLB0" selectedIndex="1"/>
+                <gridItem id="SSLB1" selectedIndex="0"/>
+                <gridItem id="SSLB2" selectedIndex="0"/>
+                <gridItem id="SSLB3" selectedIndex="0"/>
+                <gridItem id="RSPI1" selectedIndex="1"/>
+                <gridItem id="RSPCKC" selectedIndex="0"/>
+                <gridItem id="MOSIC" selectedIndex="0"/>
+                <gridItem id="MISOC" selectedIndex="0"/>
+                <gridItem id="SSLC0" selectedIndex="0"/>
+                <gridItem id="SSLC1" selectedIndex="0"/>
+                <gridItem id="SSLC2" selectedIndex="0"/>
+                <gridItem id="SSLC3" selectedIndex="0"/>
+                <gridItem id="RSPI2" selectedIndex="0"/>
+                <gridItem id="RSPI_CFG_PARAM_CHECKING_ENABLE" selectedIndex="2"/>
+                <gridItem id="RSPI_CFG_HIGH_SPEED_READ" selectedIndex="1"/>
+                <gridItem id="RSPI_CFG_REQUIRE_LOCK" selectedIndex="1"/>
+                <gridItem id="RSPI_CFG_DUMMY_TXDATA" selectedIndex="0xffffffff"/>
+                <gridItem id="RSPI_CFG_USE_CHAN0" selectedIndex="0"/>
+                <gridItem id="RSPI_CFG_USE_CHAN1" selectedIndex="1"/>
+                <gridItem id="RSPI_CFG_USE_CHAN2" selectedIndex="0"/>
+                <gridItem id="RSPI_CFG_IR_PRIORITY_CHAN0" selectedIndex="3"/>
+                <gridItem id="RSPI_CFG_IR_PRIORITY_CHAN1" selectedIndex="8"/>
+                <gridItem id="RSPI_CFG_IR_PRIORITY_CHAN2" selectedIndex="3"/>
+                <gridItem id="RSPI_CFG_LONGQ_ENABLE" selectedIndex="0"/>
+                <gridItem id="RSPI_CFG_MASK_UNUSED_BITS" selectedIndex="0"/>
+                <gridItem id="RSPI_CFG_USE_RX63_ERROR_INTERRUPT" selectedIndex="0"/>
+            </component>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+        </configuration>
+        <configuration inuse="true" name="r_ether_rx">
+            <component description="Dependency : r_bsp version(s) 5.52&#10;The Ethernet FIT module sends and receives Ethernet / IEEE802.3 frames using the Ethernet controller (ETHERC) and Ethernet DMA controller (EDMAC)." detailDescription="Ethernet Driver." display="r_ether_rx" id="r_ether_rx1.21" version="1.21">
+                <gridItem id="CLKOUT25M" selectedIndex="0"/>
+                <gridItem id="ET0_TX_CLK" selectedIndex="0"/>
+                <gridItem id="ET0_RX_CLK" selectedIndex="1"/>
+                <gridItem id="ET0_TX_EN" selectedIndex="1"/>
+                <gridItem id="ET0_ETXD3" selectedIndex="0"/>
+                <gridItem id="ET0_ETXD2" selectedIndex="0"/>
+                <gridItem id="ET0_ETXD1" selectedIndex="1"/>
+                <gridItem id="ET0_ETXD0" selectedIndex="1"/>
+                <gridItem id="ET0_TX_ER" selectedIndex="0"/>
+                <gridItem id="ET0_RX_DV" selectedIndex="0"/>
+                <gridItem id="ET0_ERXD3" selectedIndex="0"/>
+                <gridItem id="ET0_ERXD2" selectedIndex="0"/>
+                <gridItem id="ET0_ERXD1" selectedIndex="1"/>
+                <gridItem id="ET0_ERXD0" selectedIndex="1"/>
+                <gridItem id="ET0_RX_ER" selectedIndex="1"/>
+                <gridItem id="ET0_CRS" selectedIndex="1"/>
+                <gridItem id="ET0_COL" selectedIndex="0"/>
+                <gridItem id="ET0_MDC" selectedIndex="1"/>
+                <gridItem id="ET0_MDIO" selectedIndex="1"/>
+                <gridItem id="PMGI0_MDC" selectedIndex="0"/>
+                <gridItem id="PMGI0_MDIO" selectedIndex="0"/>
+                <gridItem id="ET0_LINKSTA" selectedIndex="1"/>
+                <gridItem id="ET0_EXOUT" selectedIndex="0"/>
+                <gridItem id="ET0_WOL" selectedIndex="0"/>
+                <gridItem id="ETHERC0_MII" selectedIndex="1"/>
+                <gridItem id="CLKOUT25M" selectedIndex="0"/>
+                <gridItem id="REF50CK0" selectedIndex="1"/>
+                <gridItem id="RMII0_TXD_EN" selectedIndex="1"/>
+                <gridItem id="RMII0_TXD1" selectedIndex="1"/>
+                <gridItem id="RMII0_TXD0" selectedIndex="1"/>
+                <gridItem id="RMII0_RXD1" selectedIndex="1"/>
+                <gridItem id="RMII0_RXD0" selectedIndex="1"/>
+                <gridItem id="RMII0_RX_ER" selectedIndex="1"/>
+                <gridItem id="RMII0_CRS_DV" selectedIndex="1"/>
+                <gridItem id="ET0_MDC" selectedIndex="1"/>
+                <gridItem id="ET0_MDIO" selectedIndex="1"/>
+                <gridItem id="PMGI0_MDC" selectedIndex="0"/>
+                <gridItem id="PMGI0_MDIO" selectedIndex="0"/>
+                <gridItem id="ET0_LINKSTA" selectedIndex="1"/>
+                <gridItem id="ET0_EXOUT" selectedIndex="0"/>
+                <gridItem id="ET0_WOL" selectedIndex="0"/>
+                <gridItem id="ETHERC0_RMII" selectedIndex="1"/>
+                <gridItem id="CLKOUT25M" selectedIndex="0"/>
+                <gridItem id="ET1_TX_CLK" selectedIndex="0"/>
+                <gridItem id="ET1_RX_CLK" selectedIndex="0"/>
+                <gridItem id="ET1_TX_EN" selectedIndex="0"/>
+                <gridItem id="ET1_ETXD3" selectedIndex="0"/>
+                <gridItem id="ET1_ETXD2" selectedIndex="0"/>
+                <gridItem id="ET1_ETXD1" selectedIndex="0"/>
+                <gridItem id="ET1_ETXD0" selectedIndex="0"/>
+                <gridItem id="ET1_TX_ER" selectedIndex="0"/>
+                <gridItem id="ET1_RX_DV" selectedIndex="0"/>
+                <gridItem id="ET1_ERXD3" selectedIndex="0"/>
+                <gridItem id="ET1_ERXD2" selectedIndex="0"/>
+                <gridItem id="ET1_ERXD1" selectedIndex="0"/>
+                <gridItem id="ET1_ERXD0" selectedIndex="0"/>
+                <gridItem id="ET1_RX_ER" selectedIndex="0"/>
+                <gridItem id="ET1_CRS" selectedIndex="0"/>
+                <gridItem id="ET1_COL" selectedIndex="0"/>
+                <gridItem id="ET1_MDC" selectedIndex="0"/>
+                <gridItem id="ET1_MDIO" selectedIndex="0"/>
+                <gridItem id="PMGI1_MDC" selectedIndex="0"/>
+                <gridItem id="PMGI1_MDIO" selectedIndex="0"/>
+                <gridItem id="ET1_LINKSTA" selectedIndex="0"/>
+                <gridItem id="ET1_EXOUT" selectedIndex="0"/>
+                <gridItem id="ET1_WOL" selectedIndex="0"/>
+                <gridItem id="ETHERC1_MII" selectedIndex="0"/>
+                <gridItem id="CLKOUT25M" selectedIndex="0"/>
+                <gridItem id="REF50CK1" selectedIndex="0"/>
+                <gridItem id="RMII1_TXD_EN" selectedIndex="0"/>
+                <gridItem id="RMII1_TXD1" selectedIndex="0"/>
+                <gridItem id="RMII1_TXD0" selectedIndex="0"/>
+                <gridItem id="RMII1_RXD1" selectedIndex="0"/>
+                <gridItem id="RMII1_RXD0" selectedIndex="0"/>
+                <gridItem id="RMII1_RX_ER" selectedIndex="0"/>
+                <gridItem id="RMII1_CRS_DV" selectedIndex="0"/>
+                <gridItem id="ET1_MDC" selectedIndex="0"/>
+                <gridItem id="ET1_MDIO" selectedIndex="0"/>
+                <gridItem id="PMGI1_MDC" selectedIndex="0"/>
+                <gridItem id="PMGI1_MDIO" selectedIndex="0"/>
+                <gridItem id="ET1_LINKSTA" selectedIndex="0"/>
+                <gridItem id="ET1_EXOUT" selectedIndex="0"/>
+                <gridItem id="ET1_WOL" selectedIndex="0"/>
+                <gridItem id="ETHERC1_RMII" selectedIndex="0"/>
+                <gridItem id="ETHER_CFG_MODE_SEL" selectedIndex="1"/>
+                <gridItem id="ETHER_CFG_CH0_PHY_ADDRESS" selectedIndex="0"/>
+                <gridItem id="ETHER_CFG_CH1_PHY_ADDRESS" selectedIndex="1"/>
+                <gridItem id="ETHER_CFG_EMAC_RX_DESCRIPTORS" selectedIndex="1"/>
+                <gridItem id="ETHER_CFG_EMAC_TX_DESCRIPTORS" selectedIndex="1"/>
+                <gridItem id="ETHER_CFG_BUFSIZE" selectedIndex="1536"/>
+                <gridItem id="ETHER_CFG_AL1_INT_PRIORTY" selectedIndex="1"/>
+                <gridItem id="ETHER_CFG_CH0_PHY_ACCESS" selectedIndex="0"/>
+                <gridItem id="ETHER_CFG_CH1_PHY_ACCESS" selectedIndex="1"/>
+                <gridItem id="ETHER_CFG_PHY_MII_WAIT" selectedIndex="8"/>
+                <gridItem id="ETHER_CFG_PHY_DELAY_RESET" selectedIndex="0x00020000L"/>
+                <gridItem id="ETHER_CFG_LINK_PRESENT" selectedIndex="0"/>
+                <gridItem id="ETHER_CFG_USE_LINKSTA" selectedIndex="1"/>
+                <gridItem id="ETHER_CFG_USE_PHY_KSZ8041NL" selectedIndex="0"/>
+                <gridItem id="ETHER_CFG_NON_BLOCKING" selectedIndex="0"/>
+                <gridItem id="ETHER_CFG_PMGI_CLOCK" selectedIndex="2500000"/>
+                <gridItem id="ETHER_CFG_PMGI_ENABLE_PREAMBLE" selectedIndex="0"/>
+                <gridItem id="ETHER_CFG_PMGI_HOLD_TIME" selectedIndex="0"/>
+                <gridItem id="ETHER_CFG_PMGI_CAPTURE_TIME" selectedIndex="0"/>
+                <gridItem id="ETHER_CFG_PMGI_INT_PRIORTY" selectedIndex="1"/>
+            </component>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+        </configuration>
+    </tool>
+</boardDescription>
