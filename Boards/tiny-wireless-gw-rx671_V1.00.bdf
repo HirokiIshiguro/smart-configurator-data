@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<boardInfo>
+    <system>
+        <item id="powerTarget" value="no"/>
+        <item id="emulator" value="renesas.e2lite"/>
+        <item id="debugIF" value="fine"/>
+    </system>
+    <pin>
+        <function comments="EMLE" group="" id="EMLE" pin="2"/>
+        <function comments="FINE debug connector" group="" id="FINED" pin="6"/>
+        <function comments="Reset circuit" group="" id="RES#" pin="9"/>
+        <function comments="Main clock 16MHz (X322516MLB4SI)" group="" id="XTAL" pin="10"/>
+        <function comments="Main clock 16MHz (X322516MLB4SI)" group="" id="EXTAL" pin="12"/>
+        <function comments="Expansion connector SPI (SCI1 Simple SPI mode)" group="" id="SMISO1" pin="16"/>
+        <function comments="Expansion connector SPI (SCI1 Simple SPI mode)" group="" id="SS1#" pin="17"/>
+        <function comments="Expansion connector SPI (SCI1 Simple SPI mode)" group="" id="SMOSI1" pin="18"/>
+        <function comments="Expansion connector SPI (SCI1 Simple SPI mode)" group="" id="SCK1" pin="19"/>
+        <function comments="Audio (SSIE0), wiring only in v0" group="" id="SSITXD0" pin="20"/>
+        <function comments="Expansion connector I2C (RIICHS0)" group="" id="SDAHS0" pin="22"/>
+        <function comments="Expansion connector I2C (RIICHS0)" group="" id="SCLHS0" pin="23"/>
+        <function comments="Type 1YN control (reset/RTS, assignment fixed in schematic)" group="" id="PH2" pin="25"/>
+        <function comments="Type 1YN control (reset/RTS, assignment fixed in schematic)" group="" id="PH1" pin="26"/>
+        <function comments="Audio (SSIE0), wiring only in v0" group="" id="SSIRXD0" pin="28"/>
+        <function comments="Type 1YN control (reset/RTS, assignment fixed in schematic)" group="" id="PC7" pin="29"/>
+        <function comments="LED3" group="" id="PC1" pin="33"/>
+        <function comments="LED2" group="" id="PC0" pin="34"/>
+        <function comments="Console / security provisioning CLI" group="" id="TXD9" pin="35"/>
+        <function comments="Console / security provisioning CLI" group="" id="RXD9" pin="36"/>
+        <function comments="LED1" group="" id="PB5" pin="37"/>
+        <function comments="Type 1YN BT HCI UART (RTS is software GPIO, see PC7/PE0/PH1/PH2)" group="" id="CTS12#" pin="41"/>
+        <function comments="Type 1YN SDIO" group="" id="SDHI_WP" pin="43"/>
+        <function comments="Type 1YN SDIO" group="" id="SDHI_CD" pin="44"/>
+        <function comments="Type 1YN SDIO" group="B" id="SDHI_D1" pin="45"/>
+        <function comments="Type 1YN SDIO" group="B" id="SDHI_D0" pin="46"/>
+        <function comments="Type 1YN BT HCI UART" group="" id="RXD12" pin="47"/>
+        <function comments="Type 1YN BT HCI UART" group="" id="TXD12" pin="48"/>
+        <function comments="Type 1YN control (reset/RTS, assignment fixed in schematic)" group="" id="PE0" pin="49"/>
+        <function comments="Switch2" group="" id="IRQ7" pin="50"/>
+        <function comments="Switch1" group="" id="IRQ6" pin="51"/>
+        <function comments="Type 1YN SDIO (Wi-Fi, primary v0 bring-up target)" group="B" id="SDHI_CLK" pin="52"/>
+        <function comments="Type 1YN SDIO (Wi-Fi, primary v0 bring-up target)" group="B" id="SDHI_CMD" pin="53"/>
+        <function comments="Type 1YN SDIO" group="B" id="SDHI_D3" pin="54"/>
+        <function comments="Type 1YN SDIO" group="B" id="SDHI_D2" pin="55"/>
+        <function comments="Spare ADC" group="" id="AN003" pin="56"/>
+        <function comments="Spare ADC" group="" id="AN002" pin="57"/>
+        <function comments="Spare ADC" group="" id="AN001" pin="58"/>
+        <function comments="Spare ADC" group="" id="AN000" pin="60"/>
+    </pin>
+    <clock>
+        <item id="vccinput" value="3.3"/>
+        <item id="mainclockenable" value="check"/>
+        <item id="mainsourcebox" value="srcR"/>
+        <item id="mainfrequency" value="16"/>
+        <item id="mainwaittime" value="9980"/>
+        <item id="subclockenable" value="uncheck"/>
+        <item id="subfrequency" value="32.768"/>
+        <item id="subdrivecap" value="standardCL"/>
+        <item id="subwaittime" value="2000"/>
+        <item id="suboscswitcher" value="subxcin"/>
+        <item id="hococlockenable" value="uncheck"/>
+        <item id="hocooscenable" value="uncheck"/>
+        <item id="hocofrequency" value="frq16"/>
+        <item id="hocofllenable" value="uncheck"/>
+        <item id="lococlockenable" value="uncheck"/>
+        <item id="locofrequency" value="240"/>
+        <item id="iwdtclockenable" value="uncheck"/>
+        <item id="iwdtfrequency" value="120"/>
+        <item id="pllswitcher" value="pllmain"/>
+        <item id="plldivider" value="div1-1"/>
+        <item id="pllmul" value="mul15-1"/>
+        <item id="sckswitcher" value="pll"/>
+        <item id="fclkdivider" value="comboBox1-4"/>
+        <item id="iclkdivider" value="comboBox1-2"/>
+        <item id="pclkadivider" value="comboBox1-2"/>
+        <item id="pclkbdivider" value="comboBox1-4"/>
+        <item id="pclkcdivider" value="comboBox1-4"/>
+        <item id="pclkddivider" value="comboBox1-4"/>
+        <item id="uckenable" value="uncheck"/>
+        <item id="uckdivider" value="comboBox1-5"/>
+    </clock>
+    <board display="tiny-wireless-gw-rx671" html="" id="tiny-wireless-gw-rx671" partNumber="R5F5671EHxFM"/>
+    <info version="V1.00"/>
+</boardInfo>
