@@ -302,7 +302,7 @@
     <download uri="https://raw.githubusercontent.com/renesas/smart-configurator-data/9f6a6f2a9308c557ba7c6e484eb3003ecdc8ded4/Boards/TargetBoardRX671_V1.03.bdf"/>
     <download uri="https://raw.githubusercontent.com/renesas/smart-configurator-data/9f6a6f2a9308c557ba7c6e484eb3003ecdc8ded4/Boards/TargetBoardRX671_V1.04.bcdf"/>
   </board>
-  <board id="tiny-wireless-gw-rx671" version="1.00" description="tiny-wireless-gw-rx671 Board Description File" keys="RX">
-    <download uri="https://raw.githubusercontent.com/HirokiIshiguro/smart-configurator-data/master/Boards/tiny-wireless-gw-rx671_V1.00.bdf"/>
+  <board id="tiny-wireless-gw-rx671" version="1.01" description="tiny-wireless-gw-rx671 Board Description File" keys="RX">
+    <download uri="https://raw.githubusercontent.com/HirokiIshiguro/smart-configurator-data/master/Boards/tiny-wireless-gw-rx671_V1.01.bdf"/>
   </board>
 </boards>
