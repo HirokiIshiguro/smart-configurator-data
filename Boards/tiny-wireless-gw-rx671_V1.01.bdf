@@ -7,10 +7,11 @@
     </system>
     <pin>
         <function comments="EMLE" group="" id="EMLE" pin="2"/>
-        <function comments="FINEデバッグコネクタ" group="" id="FINED" pin="6"/>
-        <function comments="リセット回路" group="" id="RES#" pin="9"/>
+        <function comments="FINEデバッグ(拡張コネクタ J3 pin19 経由)" group="" id="FINED" pin="6"/>
+        <function comments="リセット回路(拡張コネクタ J3 pin21 経由)" group="" id="RES#" pin="9"/>
         <function comments="メインクロック 16MHz(X322516MLB4SI)" group="" id="XTAL" pin="10"/>
         <function comments="メインクロック 16MHz(X322516MLB4SI)" group="" id="EXTAL" pin="12"/>
+        <function comments="Type 1YN BT_HOST_WAKE(BT LPM、コントローラ→ホスト起床要求)" group="" id="IRQ4" pin="15"/>
         <function comments="拡張コネクタ SPI(SCI1 Simple SPIモード)" group="" id="SMISO1" pin="16"/>
         <function comments="拡張コネクタ SPI(SCI1 Simple SPIモード)" group="" id="SS1#" pin="17"/>
         <function comments="拡張コネクタ SPI(SCI1 Simple SPIモード)" group="" id="SMOSI1" pin="18"/>
@@ -27,7 +28,9 @@
         <function comments="コンソール/セキュリティ関連データのプロビジョニング CLI" group="" id="TXD9" pin="35"/>
         <function comments="コンソール/セキュリティ関連データのプロビジョニング CLI" group="" id="RXD9" pin="36"/>
         <function comments="LED1" group="" id="PB5" pin="37"/>
+        <function comments="Type 1YN BT_DEV_WAKE(BT LPM、ホスト→コントローラ起床要求、GPIO出力)" group="" id="PA7" pin="40"/>
         <function comments="Type 1YN BT HCI UART(RTS はソフトウェア GPIO、PC7/PE0/PH1/PH2 参照)" group="" id="CTS12#" pin="41"/>
+        <function comments="Type 1YN WL_HOST_WAKE(SDIO OOB 割込み。IRQ5-DS でディープソフトウェアスタンバイ復帰対応)" group="" id="IRQ5" pin="42"/>
         <function comments="Type 1YN SDIO(Wi-Fi)" group="" id="SDHI_WP" pin="43"/>
         <function comments="Type 1YN SDIO(Wi-Fi)" group="" id="SDHI_CD" pin="44"/>
         <function comments="Type 1YN SDIO(Wi-Fi)" group="B" id="SDHI_D1" pin="45"/>
@@ -79,5 +82,5 @@
         <item id="uckdivider" value="comboBox1-5"/>
     </clock>
     <board display="tiny-wireless-gw-rx671" html="" id="tiny-wireless-gw-rx671" partNumber="R5F5671EHxFM"/>
-    <info version="V1.00"/>
+    <info version="V1.01"/>
 </boardInfo>
